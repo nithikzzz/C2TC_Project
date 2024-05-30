@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+.bg{
+    background-image: url('C:/Users/nithi/OneDrive/Documents/React_JS/MallProject/shoppingmall/src/images/bg1.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.navbar{
+    margin: 0%;
+    width: 100vw;
+    height: 75px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 7px 7px black;
+
+}
+.nav{
+    width: 100vw;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+img{
+    width: 90px;
+    height: 68px;
+    border-radius: 18px;
+    padding: 0px 0px 5px 5px;
+    opacity: 2;
+}
+.links{
+    margin-top: 0%;
+    height: 75px;
+    width: 600px;
+    /* background-color: rgb(84, 84, 201); */
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.link{
+    height: 40px;
+    width: 120px;
+    text-decoration: none;
+    border: 1px rgb(196, 182, 103) solid;
+    padding: 6px;
+    margin: 7px 4px 0px 0px;
+    color: black;
+    border-radius: 7px;
+    background-color: white;
+    text-align: center;
+}
+.link:hover{
+    color: white;
+    background-color: black;
+    box-shadow: 0px 5px 5px 0px gray;
+}
